@@ -22,6 +22,7 @@ body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .links {
@@ -36,25 +37,33 @@ a, .hero-article {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .hero-body {
     display: flex;
     justify-content: space-around;
-    margin: 50px 0px
+    margin: 50px 0px;
+    gap: 50px;
 }
 
 .hero-title {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
+    
 }
 
 button {
-    padding: 5px 8px;
+    padding: 8px 24px;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
     border: none;
-    margin-top: 8px;
+    margin-top: 24px;
+}
+.hero-image {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
 }
