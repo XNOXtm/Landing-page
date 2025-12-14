@@ -62,8 +62,35 @@ button {
     border: none;
     margin-top: 24px;
 }
+
 .hero-image {
     width: 400px;
     height: auto;
+    border-radius: 5px;
+}
+
+.info-section {
+    color: #1f2937;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    gap: 45px;
+    
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.items-list {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    height:100px;
+    border: 2px solid #3882f6;
     border-radius: 5px;
 }
