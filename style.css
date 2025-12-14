@@ -54,7 +54,7 @@ a, .hero-article {
     
 }
 
-button {
+.hero-left .sign-up {
     padding: 8px 24px;
     background-color: #3882f6;
     color: #f9faf8;
@@ -144,4 +144,16 @@ button {
 .container-head {
     font-weight: 900;
     font-size: large;
+}
+
+.right .container-button .final-signup {
+    border-radius: 5px;
+    border: 2px whitesmoke;
+    padding: 5px 10px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.final-signup {
+    border: 10px #e5e7eb;
 }
