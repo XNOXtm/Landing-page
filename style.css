@@ -13,6 +13,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+
 }
 
 .logo {
@@ -23,7 +26,7 @@ body {
 .links {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 12px;
     margin: 0;
     padding: 0;
 }
