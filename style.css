@@ -28,7 +28,7 @@ body {
 .links {
     display: flex;
     list-style: none;
-    gap: 12px;
+    gap: 15px;
     margin: 0;
     padding: 0;
 }
@@ -76,6 +76,7 @@ button {
     flex-direction: column;
     padding: 45px;
     gap: 45px;
+    align-items: center;
     
 }
 
@@ -86,11 +87,19 @@ button {
 
 .items-list {
     display: flex;
+    justify-content: space-around;
+    gap: 18px;
+    text-align: center;
 }
 
-img {
-    width: 100px;
-    height:100px;
+.items-list img {
+    width: 200px;
+    height:200px;
     border: 2px solid #3882f6;
     border-radius: 5px;
 }
+
+.items-list {
+    padding-bottom: 50px;
+}
+
