@@ -154,3 +154,11 @@ a, .hero-article {
     border: 1px solid whitesmoke;
     flex-basis: auto;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
