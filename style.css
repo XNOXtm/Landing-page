@@ -138,7 +138,7 @@ a, .hero-article {
     padding: 50px 100px;
     align-items: center;
     border-radius: 10px;
-    gap: 100px;
+    gap: 150px;
 }
 
 .container-head {
@@ -146,14 +146,11 @@ a, .hero-article {
     font-size: large;
 }
 
-.right .container-button .final-signup {
+.final-signup {
     border-radius: 5px;
-    border: 2px whitesmoke;
-    padding: 5px 10px;
+    padding: 5px 20px;
     background-color: #3882f6;
     color: white;
-}
-
-.final-signup {
-    border: 10px #e5e7eb;
+    border: 1px solid whitesmoke;
+    flex-basis: auto;
 }
